@@ -1,0 +1,129 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": {
+    "fields": []
+  },
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -125.12062799761048,
+        44.755850326283394,
+        -115.66069467661886,
+        49.59838649403771
+      ],
+      "id": "washington",
+      "class": "",
+      "Datasource": {
+        "file": "u:\\wash\\washington.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "washington"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -122.43383779599998,
+        47.44119402500007,
+        -122.21708786399995,
+        47.77798793400008
+      ],
+      "id": "streetnetworkdatabas",
+      "class": "",
+      "Datasource": {
+        "file": "u:\\Street_Network_Database\\WGS84\\Street_Network_Database.shp",
+        "id": "streetnetworkdatabas",
+        "project": "458-Hardyw7-second-VehicleCollisions",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "streetnetworkdatabas"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.45471293266428,
+        47.487272791191764,
+        -122.224477538502,
+        47.734164928055804
+      ],
+      "id": "spdbeatswgs84",
+      "class": "",
+      "Datasource": {
+        "file": "u:\\GEOG458\\SPD_BEATS_WGS84\\SPD_BEATS_WGS84.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "spdbeatswgs84"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.40027828643032,
+        47.50961979121477,
+        -122.2589136672997,
+        47.726549760146106
+      ],
+      "id": "collisionsbybeat",
+      "class": "",
+      "Datasource": {
+        "file": "u:\\GEOG458\\TileMill\\CollisionsByBeat.shp",
+        "id": "collisionsbybeat",
+        "project": "458-Hardyw7-second-VehicleCollisions",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "collisionsbybeat"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.41903,
+        47.502518,
+        -122.25062600000001,
+        47.734127
+      ],
+      "id": "vehicleCollisions",
+      "class": "",
+      "Datasource": {
+        "file": "u:\\GEOG458\\TileMill\\Seattle_Police_Department_911_Incident_Response.csv",
+        "id": "vehicleCollisions",
+        "project": "458-Hardyw7-second-VehicleCollisions",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "vehicleCollisions"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "",
+  "description": "",
+  "legend": "<strong>Vehicle Collisions in Seattle on 2/23/2016</strong><br/>"
+}
