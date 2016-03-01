@@ -6,3 +6,5 @@ Link to qlin for maps:
 Map1 - http://qilin.geog.uw.edu:8888/#!/map/458-Hardyw7-First-Map
 Map2 - http://qilin.geog.uw.edu:8888/#!/map/
 Map3 - http://qilin.geog.uw.edu:8888/#!/map/458-Hardyw7-third-SeattleParks
+
+TileMill continualy crashed such that i was unable to export map2.  I will try again tomorrow.
